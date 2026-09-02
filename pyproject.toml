@@ -248,3 +248,8 @@ flake8-import-conventions.aliases = { datetime = "dt" }
 flake8-quotes.inline-quotes = "single"
 mccabe.max-complexity = 10
 pydocstyle.convention = "google"
+
+[[tool.uv.index]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
